@@ -28,5 +28,5 @@ You will need to change MyDatabase, MyUsername and MyPassword to match your own 
 ### Editing the code
 * In *index.php* how can we display the year for the film alongside the title e.g. Jaws (1975)
 * How would you edit the code so that the list of films in *index.php* appears in date order with the most recent first. 
-* These examples are as simple as they can be. How could you perform some basic user input validation i.e. testing that the user has completed all the fields when adding a new film. Hint: You will need to add some code in *store.php* to test the values from the form. If you detect a problem echo out a message to the user and use ```die();``` to prevent the INSERT code from running. 
+* These examples are as simple as they can be. How could you perform some basic user input validation i.e. testing that the user has completed all the fields when adding a new film. Hint: You will need to add some code in *store.php* to test the values from the form. If you detect a problem, ```echo``` out a message to the user and use ```die();``` to prevent the INSERT code from running. 
 
