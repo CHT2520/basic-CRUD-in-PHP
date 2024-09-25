@@ -10,7 +10,7 @@ These examples demonstrate the use of PDO to implement CRUD (Create, Read, Updat
 ```
 You will need to change MyDatabase, MyUsername and MyPassword to match your own database name, username and password.
 * View *index.php* in a browser. You should see a list of films.
-* Have a good look through the code in *index.php*. Make sure you understand what each line of code is doing. Refer to [Form Processing](form-processing.md) [PHP, Databases and PDO](pdo.md) for explanations.
+* Have a good look through the code in *index.php*. Make sure you understand what each line of code is doing. Refer to [Form Processing](form-processing.md) and [PHP, Databases and PDO](pdo.md) for explanations.
 
 ## Getting the other functions to work
 * If you click on one of the links in *index.php*, this takes you to *show.php*, and you'll get an error. Open up *show.php* and edit the connection settings just like you did in *index.php*. The *show.php* page should then work. 
