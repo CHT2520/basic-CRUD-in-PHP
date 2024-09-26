@@ -8,7 +8,7 @@ These examples demonstrate the use of PDO to implement CRUD (Create, Read, Updat
 ```
     $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
 ```
-You will need to change MyDatabase, MyUsername and MyPassword to match your own database name, username and password.
+You will need to change *MyDatabase*, *MyUsername* and *MyPassword* to match your own database name, username and password.
 * View *index.php* in a browser. You should see a list of films.
 * Have a good look through the code in *index.php*. Make sure you understand what each line of code is doing. Refer to [Form Processing](form-processing.md) and [PHP, Databases and PDO](pdo.md) for explanations.
 
