@@ -6,6 +6,13 @@
 <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+  <nav>
+    <ul>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="create.php">Add new film</a></li>
+    <li><a href="about.php">About</a></li>
+</ul>
+</nav>
 <h1>Add a new film</h1>
 
 <form method="POST" action="store.php">
